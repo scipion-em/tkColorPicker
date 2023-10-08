@@ -28,7 +28,7 @@ from tkcolorpicker.gradientbar import GradientBar
 from tkcolorpicker.colorsquare import ColorSquare
 from tkcolorpicker.spinbox import Spinbox
 from tkcolorpicker.limitvar import LimitVar
-from locale import getdefaultlocale
+from locale import getlocale
 import re
 
 
@@ -40,7 +40,7 @@ FR = {"Red": "Rouge", "Green": "Vert", "Blue": "Bleu",
       "Alpha": "Alpha"}
 
 try:
-    if getdefaultlocale()[0][:2] == 'fr':
+    if getlocale()[0][:2] == 'fr':
         TR = FR
     else:
         TR = EN
