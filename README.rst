@@ -1,9 +1,9 @@
-tkcolorpicker
-=============
+tkcolorpicker2
+==============
 
-|Release| |Travis| |Appveyor| |Codecov| |Windows| |Linux| |Mac| |License|
+|Release| |Windows| |Linux| |Mac| |License|
 
-Color picker dialog for Tkinter.
+Color picker dialog for Tkinter. Forked from original https://github.com/j4321/tkColorPicker but with a locale fix.
 
 This module contains a ``ColorPicker`` class which implements the color picker
 and an ``askcolor`` function that displays the color picker and
@@ -25,25 +25,11 @@ And the python packages:
 Installation
 ------------
 
-- Ubuntu: use the PPA `ppa:j-4321-i/ppa <https://launchpad.net/~j-4321-i/+archive/ubuntu/ppa>`__
-
-    ::
-
-        $ sudo add-apt-repository ppa:j-4321-i/ppa
-        $ sudo apt-get update
-        $ sudo apt-get install python(3)-tkcolorpicker
-
-
-- Archlinux: 
-    
-    the package is available on `AUR <https://aur.archlinux.org/packages/python-tkcolorpicker>`__
-
-
 - With pip:
 
     ::
 
-        $ pip install tkcolorpicker
+        $ pip install tkcolorpicker2
 
 
 Documentation
@@ -92,22 +78,13 @@ Example
 
 .. |Release| image:: https://badge.fury.io/py/tkcolorpicker.svg
     :alt: Latest Release
-    :target:  https://pypi.org/project/tkcolorpicker/
+    :target:  https://pypi.org/project/tkcolorpicker2/
 .. |Linux| image:: https://img.shields.io/badge/platform-Linux-blue.svg
     :alt: Platform
 .. |Windows| image:: https://img.shields.io/badge/platform-Windows-blue.svg
     :alt: Platform
 .. |Mac| image:: https://img.shields.io/badge/platform-Mac-blue.svg
     :alt: Platform
-.. |Travis| image:: https://travis-ci.org/j4321/tkColorPicker.svg?branch=master
-    :target: https://travis-ci.org/j4321/tkColorPicker
-    :alt: Travis CI Build Status
-.. |Appveyor| image:: https://ci.appveyor.com/api/projects/status/7ow8wfw5by7uiise/branch/master?svg=true
-    :target: https://ci.appveyor.com/project/j4321/tkcolorpicker/branch/master
-    :alt: Appveyor Build Status
-.. |Codecov| image:: https://codecov.io/gh/j4321/tkColorPicker/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/j4321/tkColorPicker
-    :alt: Code coverage
 .. |License| image:: https://img.shields.io/github/license/j4321/tkColorPicker.svg
     :target: https://www.gnu.org/licenses/gpl-3.0.en.html
     :alt: License
